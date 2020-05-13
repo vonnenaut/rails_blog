@@ -1,4 +1,7 @@
 # README
+Ruby version 2.5.8
+db: PostgreSQL
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
