@@ -13,25 +13,75 @@
  *= require_tree .
  *= require_self
  */
+a {
+  font-size: 1.3em;
+}
 
- div.field_with_errors {
+div.edit, div.new {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+div.field_with_errors {
   color: white;
   background-color: red;
- }
+}
 
- header {
+div.show {
+  display: flex;
+  width: 65%;
+  margin: 0 auto;
+}
+
+div.wrapper {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+
+div.entry textarea {
+  height: 26em;
+  width: 18em;
+}
+
+div.comment textarea {
+  height: 7em;
+  width: 18em;
+}
+
+header {
   display: inline-block;
   padding-bottom: 30px;
- }
+}
 
- .header-links {
+header h1 {
+  font-size: 2.4em;
+}
+
+h1 {
+  font-size: 1.9em;
+  padding: 10px 5px 3px 5px;
+}
+
+h2 {
+  font-size: 1.6em;
+  padding: 10px 0px 3px 0px;
+}
+
+.header-links {
   align-content: right;
- }
+}
 
- table {
+table {
   padding: 25px;
- }
+  margin: 10px;
+}
 
- tr, td {
+th {
+  font-size: 1.1em;
+  border-bottom: 1px solid black;
+}
+
+tr, td {
   padding: 15px 5px 15px 5px;
- }
+}
