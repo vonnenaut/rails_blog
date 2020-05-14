@@ -60,7 +60,10 @@ header h1 {
 
 h1 {
   font-size: 1.9em;
-  padding: 10px 5px 3px 5px;
+}
+
+h1, a {
+    padding: 10px 5px 3px 10px;
 }
 
 h2 {
