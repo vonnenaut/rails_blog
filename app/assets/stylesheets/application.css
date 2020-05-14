@@ -18,3 +18,20 @@
   color: white;
   background-color: red;
  }
+
+ header {
+  display: inline-block;
+  padding-bottom: 30px;
+ }
+
+ .header-links {
+  align-content: right;
+ }
+
+ table {
+  padding: 25px;
+ }
+
+ tr, td {
+  padding: 15px 5px 15px 5px;
+ }
