@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+div.field_with_errors {
+  background-color: red;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+table {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+th {
+}
+
+tr {
+  padding: 5px 10px;
+}
+
+td {
+  border-bottom: 1px black solid;
+  padding: 5px 15px;
+}
