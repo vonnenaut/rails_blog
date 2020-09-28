@@ -1,15 +1,42 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html>
   <head>
     <title>Blog</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+=======
+<html lang="en-US">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+<<<<<<< HEAD
     <%= yield %>
   </body>
 </html>
+=======
+    <div class="wrapper">
+      
+      <div>
+        <p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
+      </div>
+
+      <%= yield %>
+
+    </div>
+  </body>
+</html>
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c

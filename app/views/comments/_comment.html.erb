@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="comment">
   <p>
     <strong>Commenter:</strong>
@@ -15,3 +16,20 @@
                 data: { confirm: 'Are you sure?' } %>
   </p>
 </div>
+=======
+<p>
+  <strong>Commenter:</strong>
+  <%= comment.commenter %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= comment.body %>
+</p>
+
+<p>
+  <%= link_to 'Delete Comment', [comment.article, comment],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+</p>
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c

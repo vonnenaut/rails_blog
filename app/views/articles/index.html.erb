@@ -1,12 +1,26 @@
+<<<<<<< HEAD
 <h1>Blog Posts</h1>
 
 <%= link_to 'New post', new_article_path %>
+=======
+
+<header>
+  <h1>Blog</h1>
+  <div class="header-links">
+    <%= link_to 'New entry', new_article_path %>
+  </div>
+</header>
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c
 
 <table>
   <tr>
     <th>Title</th>
     <th>Text</th>
+<<<<<<< HEAD
     <th></th>
+=======
+    <th colspan="2"></th>
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c
   </tr>
 
   <% @articles.each do |article| %>
@@ -15,9 +29,14 @@
       <td><%= article.text %></td>
       <td><%= link_to 'Show', article_path(article) %></td>
       <td><%= link_to 'Edit', edit_article_path(article) %></td>
+<<<<<<< HEAD
       <td><%= link_to 'Delete', article_path(article),
               method: :delete,
               data: {confirm: 'Are you sure?' } %></td>
+=======
+      <td><%= link_to 'Delete', article_path(article), method: :delete,
+          data: { confirm: 'Are you sure?' } %></td>
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c
     </tr>
   <% end %>
 </table>

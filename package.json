@@ -1,11 +1,19 @@
 {
+<<<<<<< HEAD
   "name": "blog",
+=======
+  "name": "rails_simpleblog",
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
+<<<<<<< HEAD
     "@rails/webpacker": "^5.2.1",
+=======
+    "@rails/webpacker": "5.1.1",
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",

@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+<<<<<<< HEAD
 ruby '2.5.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -9,6 +10,16 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
+=======
+ruby '2.5.8'
+
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '~> 6.0.3'
+# Use postgresql as the database for Active Record
+gem 'pg', '>= 0.18', '< 2.0'
+# Use Puma as the app server
+gem 'puma', '~> 4.3.5'
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
@@ -17,10 +28,19 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+<<<<<<< HEAD
 # actionpack
 gem "actionpack", ">=6.0.3.2"
 # actionview
 gem "actionview", ">= 6.0.3.3"
+=======
+# Add Bootstrap styling
+gem 'bootstrap-sass'
+# Use active support
+gem 'activesupport', '>= 6.0.3.1'
+# Use Devise for authentication
+gem 'devise'
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password

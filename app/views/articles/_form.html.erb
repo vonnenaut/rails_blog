@@ -1,5 +1,9 @@
 <%= form_with model: @article, local: true do |form| %>
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c
   <% if @article.errors.any? %>
     <div id="error_explanation">
       <h2>
@@ -13,6 +17,7 @@
     </div>
   <% end %>
 
+<<<<<<< HEAD
   <p>
     <%= form.label :title %><br>
     <%= form.text_field :title %>
@@ -26,4 +31,22 @@
   <p>
     <%= form.submit %>
   </p>
+=======
+  <div class="entry">
+    <p>
+      <%= form.label :title %><br>
+      <%= form.text_field :title %>
+    </p>
+
+    <p>
+      <%= form.label :text %><br>
+      <%= form.text_area :text %>
+    </p>
+
+    <p>
+      <%= form.submit %>
+    </p>
+  </div>
+
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c
 <% end %>

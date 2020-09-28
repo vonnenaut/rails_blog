@@ -14,6 +14,12 @@ Rails.application.configure do
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
 
+<<<<<<< HEAD
+=======
+  # devise authentication
+  config.action_mailer.default_url_options = { host: 'https://dashcom-rails-blog.herokuapp.com', port: 3000 }
+
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c
   # Ensures that a master key has been made available in either ENV["RAILS_MASTER_KEY"]
   # or in config/master.key. This key is used to decrypt credentials (and other encrypted files).
   # config.require_master_key = true
@@ -58,7 +64,11 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter     = :resque
+<<<<<<< HEAD
   # config.active_job.queue_name_prefix = "blog_production"
+=======
+  # config.active_job.queue_name_prefix = "rails_simpleblog_production"
+>>>>>>> 8e02132f68a9b3b50dd8e85a4c2f34d50c1fa11c
 
   config.action_mailer.perform_caching = false
 
